@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+data/music_cache.json
+trained_models/
+venv/
