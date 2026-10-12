@@ -1,0 +1,1862 @@
+{
+  "best_model": "SVM (RBF)",
+  "feature_names": [
+    "danceability",
+    "energy",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo"
+  ],
+  "class_names": [
+    "Acoustic",
+    "Chill",
+    "Focus",
+    "Hip Hop",
+    "Jazz",
+    "Others",
+    "Party",
+    "Rock",
+    "Romantic",
+    "Sad",
+    "Travel",
+    "Workout"
+  ],
+  "results": {
+    "Logistic Regression": {
+      "accuracy": 0.8987,
+      "precision": 0.8996,
+      "recall": 0.8987,
+      "f1_score": 0.8987,
+      "confusion_matrix": [
+        [
+          79,
+          4,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          103,
+          1,
+          0,
+          4,
+          2,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          80,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          66,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          67,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          4,
+          0,
+          1,
+          4,
+          132,
+          0,
+          2,
+          15,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          93,
+          0,
+          0,
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          68,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          5,
+          1,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          80,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          84,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          74,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          103
+        ]
+      ],
+      "class_names": [
+        "Acoustic",
+        "Chill",
+        "Focus",
+        "Hip Hop",
+        "Jazz",
+        "Others",
+        "Party",
+        "Rock",
+        "Romantic",
+        "Sad",
+        "Travel",
+        "Workout"
+      ],
+      "per_playlist_metrics": [
+        {
+          "playlist": "Acoustic",
+          "precision": 0.8061,
+          "recall": 0.8977,
+          "f1_score": 0.8495,
+          "support": 88
+        },
+        {
+          "playlist": "Chill",
+          "precision": 0.8443,
+          "recall": 0.8583,
+          "f1_score": 0.8512,
+          "support": 120
+        },
+        {
+          "playlist": "Focus",
+          "precision": 0.9877,
+          "recall": 0.9756,
+          "f1_score": 0.9816,
+          "support": 82
+        },
+        {
+          "playlist": "Hip Hop",
+          "precision": 0.9851,
+          "recall": 1.0,
+          "f1_score": 0.9925,
+          "support": 66
+        },
+        {
+          "playlist": "Jazz",
+          "precision": 0.8701,
+          "recall": 0.9054,
+          "f1_score": 0.8874,
+          "support": 74
+        },
+        {
+          "playlist": "Others",
+          "precision": 0.8571,
+          "recall": 0.8,
+          "f1_score": 0.8276,
+          "support": 165
+        },
+        {
+          "playlist": "Party",
+          "precision": 0.93,
+          "recall": 0.8942,
+          "f1_score": 0.9118,
+          "support": 104
+        },
+        {
+          "playlist": "Rock",
+          "precision": 0.9714,
+          "recall": 0.9714,
+          "f1_score": 0.9714,
+          "support": 70
+        },
+        {
+          "playlist": "Romantic",
+          "precision": 0.8247,
+          "recall": 0.8333,
+          "f1_score": 0.829,
+          "support": 96
+        },
+        {
+          "playlist": "Sad",
+          "precision": 0.9545,
+          "recall": 0.913,
+          "f1_score": 0.9333,
+          "support": 92
+        },
+        {
+          "playlist": "Travel",
+          "precision": 0.9487,
+          "recall": 0.9487,
+          "f1_score": 0.9487,
+          "support": 78
+        },
+        {
+          "playlist": "Workout",
+          "precision": 0.9115,
+          "recall": 0.9364,
+          "f1_score": 0.9238,
+          "support": 110
+        }
+      ],
+      "classification_report": {
+        "Acoustic": {
+          "precision": 0.8061224489795918,
+          "recall": 0.8977272727272727,
+          "f1-score": 0.8494623655913979,
+          "support": 88.0
+        },
+        "Chill": {
+          "precision": 0.8442622950819673,
+          "recall": 0.8583333333333333,
+          "f1-score": 0.8512396694214877,
+          "support": 120.0
+        },
+        "Focus": {
+          "precision": 0.9876543209876543,
+          "recall": 0.975609756097561,
+          "f1-score": 0.9815950920245399,
+          "support": 82.0
+        },
+        "Hip Hop": {
+          "precision": 0.9850746268656716,
+          "recall": 1.0,
+          "f1-score": 0.9924812030075187,
+          "support": 66.0
+        },
+        "Jazz": {
+          "precision": 0.8701298701298701,
+          "recall": 0.9054054054054054,
+          "f1-score": 0.8874172185430463,
+          "support": 74.0
+        },
+        "Others": {
+          "precision": 0.8571428571428571,
+          "recall": 0.8,
+          "f1-score": 0.8275862068965517,
+          "support": 165.0
+        },
+        "Party": {
+          "precision": 0.93,
+          "recall": 0.8942307692307693,
+          "f1-score": 0.9117647058823529,
+          "support": 104.0
+        },
+        "Rock": {
+          "precision": 0.9714285714285714,
+          "recall": 0.9714285714285714,
+          "f1-score": 0.9714285714285714,
+          "support": 70.0
+        },
+        "Romantic": {
+          "precision": 0.8247422680412371,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.8290155440414507,
+          "support": 96.0
+        },
+        "Sad": {
+          "precision": 0.9545454545454546,
+          "recall": 0.9130434782608695,
+          "f1-score": 0.9333333333333333,
+          "support": 92.0
+        },
+        "Travel": {
+          "precision": 0.9487179487179487,
+          "recall": 0.9487179487179487,
+          "f1-score": 0.9487179487179487,
+          "support": 78.0
+        },
+        "Workout": {
+          "precision": 0.911504424778761,
+          "recall": 0.9363636363636364,
+          "f1-score": 0.9237668161434978,
+          "support": 110.0
+        },
+        "accuracy": 0.8986899563318778,
+        "macro avg": {
+          "precision": 0.9076104238916322,
+          "recall": 0.9111827920748917,
+          "f1-score": 0.9089840562526414,
+          "support": 1145.0
+        },
+        "weighted avg": {
+          "precision": 0.8996069333695617,
+          "recall": 0.8986899563318778,
+          "f1-score": 0.8986957570650148,
+          "support": 1145.0
+        }
+      },
+      "training_time": 0.157,
+      "cv_mean": 0.875,
+      "cv_std": 0.0076
+    },
+    "K-Nearest Neighbors": {
+      "accuracy": 0.8507,
+      "precision": 0.8611,
+      "recall": 0.8507,
+      "f1_score": 0.8469,
+      "confusion_matrix": [
+        [
+          79,
+          7,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          108,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          80,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          65,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          4,
+          0,
+          61,
+          2,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          12,
+          0,
+          3,
+          8,
+          94,
+          0,
+          3,
+          23,
+          1,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          93,
+          0,
+          0,
+          0,
+          3,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          68,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          10,
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          81,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          83,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          75,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          87
+        ]
+      ],
+      "class_names": [
+        "Acoustic",
+        "Chill",
+        "Focus",
+        "Hip Hop",
+        "Jazz",
+        "Others",
+        "Party",
+        "Rock",
+        "Romantic",
+        "Sad",
+        "Travel",
+        "Workout"
+      ],
+      "per_playlist_metrics": [
+        {
+          "playlist": "Acoustic",
+          "precision": 0.7524,
+          "recall": 0.8977,
+          "f1_score": 0.8187,
+          "support": 88
+        },
+        {
+          "playlist": "Chill",
+          "precision": 0.7606,
+          "recall": 0.9,
+          "f1_score": 0.8244,
+          "support": 120
+        },
+        {
+          "playlist": "Focus",
+          "precision": 0.9412,
+          "recall": 0.9756,
+          "f1_score": 0.9581,
+          "support": 82
+        },
+        {
+          "playlist": "Hip Hop",
+          "precision": 0.9559,
+          "recall": 0.9848,
+          "f1_score": 0.9701,
+          "support": 66
+        },
+        {
+          "playlist": "Jazz",
+          "precision": 0.8592,
+          "recall": 0.8243,
+          "f1_score": 0.8414,
+          "support": 74
+        },
+        {
+          "playlist": "Others",
+          "precision": 0.94,
+          "recall": 0.5697,
+          "f1_score": 0.7094,
+          "support": 165
+        },
+        {
+          "playlist": "Party",
+          "precision": 0.7949,
+          "recall": 0.8942,
+          "f1_score": 0.8416,
+          "support": 104
+        },
+        {
+          "playlist": "Rock",
+          "precision": 0.9444,
+          "recall": 0.9714,
+          "f1_score": 0.9577,
+          "support": 70
+        },
+        {
+          "playlist": "Romantic",
+          "precision": 0.757,
+          "recall": 0.8438,
+          "f1_score": 0.798,
+          "support": 96
+        },
+        {
+          "playlist": "Sad",
+          "precision": 0.9222,
+          "recall": 0.9022,
+          "f1_score": 0.9121,
+          "support": 92
+        },
+        {
+          "playlist": "Travel",
+          "precision": 0.8152,
+          "recall": 0.9615,
+          "f1_score": 0.8824,
+          "support": 78
+        },
+        {
+          "playlist": "Workout",
+          "precision": 0.9062,
+          "recall": 0.7909,
+          "f1_score": 0.8447,
+          "support": 110
+        }
+      ],
+      "classification_report": {
+        "Acoustic": {
+          "precision": 0.7523809523809524,
+          "recall": 0.8977272727272727,
+          "f1-score": 0.8186528497409327,
+          "support": 88.0
+        },
+        "Chill": {
+          "precision": 0.7605633802816901,
+          "recall": 0.9,
+          "f1-score": 0.8244274809160306,
+          "support": 120.0
+        },
+        "Focus": {
+          "precision": 0.9411764705882353,
+          "recall": 0.975609756097561,
+          "f1-score": 0.9580838323353293,
+          "support": 82.0
+        },
+        "Hip Hop": {
+          "precision": 0.9558823529411765,
+          "recall": 0.9848484848484849,
+          "f1-score": 0.9701492537313433,
+          "support": 66.0
+        },
+        "Jazz": {
+          "precision": 0.8591549295774648,
+          "recall": 0.8243243243243243,
+          "f1-score": 0.8413793103448276,
+          "support": 74.0
+        },
+        "Others": {
+          "precision": 0.94,
+          "recall": 0.5696969696969697,
+          "f1-score": 0.7094339622641509,
+          "support": 165.0
+        },
+        "Party": {
+          "precision": 0.7948717948717948,
+          "recall": 0.8942307692307693,
+          "f1-score": 0.8416289592760181,
+          "support": 104.0
+        },
+        "Rock": {
+          "precision": 0.9444444444444444,
+          "recall": 0.9714285714285714,
+          "f1-score": 0.9577464788732394,
+          "support": 70.0
+        },
+        "Romantic": {
+          "precision": 0.7570093457943925,
+          "recall": 0.84375,
+          "f1-score": 0.7980295566502463,
+          "support": 96.0
+        },
+        "Sad": {
+          "precision": 0.9222222222222223,
+          "recall": 0.9021739130434783,
+          "f1-score": 0.9120879120879121,
+          "support": 92.0
+        },
+        "Travel": {
+          "precision": 0.8152173913043478,
+          "recall": 0.9615384615384616,
+          "f1-score": 0.8823529411764706,
+          "support": 78.0
+        },
+        "Workout": {
+          "precision": 0.90625,
+          "recall": 0.7909090909090909,
+          "f1-score": 0.8446601941747572,
+          "support": 110.0
+        },
+        "accuracy": 0.8506550218340612,
+        "macro avg": {
+          "precision": 0.8624311070338934,
+          "recall": 0.876353134487082,
+          "f1-score": 0.8632193942976049,
+          "support": 1145.0
+        },
+        "weighted avg": {
+          "precision": 0.8611256559429126,
+          "recall": 0.8506550218340612,
+          "f1-score": 0.8469125656168784,
+          "support": 1145.0
+        }
+      },
+      "training_time": 0.005,
+      "cv_mean": 0.8293,
+      "cv_std": 0.0072
+    },
+    "Random Forest": {
+      "accuracy": 0.9135,
+      "precision": 0.9147,
+      "recall": 0.9135,
+      "f1_score": 0.9134,
+      "confusion_matrix": [
+        [
+          79,
+          3,
+          0,
+          0,
+          2,
+          2,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          97,
+          0,
+          0,
+          5,
+          2,
+          0,
+          0,
+          3,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          81,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          66,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          0,
+          67,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          1,
+          3,
+          145,
+          0,
+          1,
+          7,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          93,
+          0,
+          0,
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          67,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          85,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          86,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          75,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          105
+        ]
+      ],
+      "class_names": [
+        "Acoustic",
+        "Chill",
+        "Focus",
+        "Hip Hop",
+        "Jazz",
+        "Others",
+        "Party",
+        "Rock",
+        "Romantic",
+        "Sad",
+        "Travel",
+        "Workout"
+      ],
+      "per_playlist_metrics": [
+        {
+          "playlist": "Acoustic",
+          "precision": 0.8229,
+          "recall": 0.8977,
+          "f1_score": 0.8587,
+          "support": 88
+        },
+        {
+          "playlist": "Chill",
+          "precision": 0.8899,
+          "recall": 0.8083,
+          "f1_score": 0.8472,
+          "support": 120
+        },
+        {
+          "playlist": "Focus",
+          "precision": 1.0,
+          "recall": 0.9878,
+          "f1_score": 0.9939,
+          "support": 82
+        },
+        {
+          "playlist": "Hip Hop",
+          "precision": 0.9851,
+          "recall": 1.0,
+          "f1_score": 0.9925,
+          "support": 66
+        },
+        {
+          "playlist": "Jazz",
+          "precision": 0.859,
+          "recall": 0.9054,
+          "f1_score": 0.8816,
+          "support": 74
+        },
+        {
+          "playlist": "Others",
+          "precision": 0.9236,
+          "recall": 0.8788,
+          "f1_score": 0.9006,
+          "support": 165
+        },
+        {
+          "playlist": "Party",
+          "precision": 0.949,
+          "recall": 0.8942,
+          "f1_score": 0.9208,
+          "support": 104
+        },
+        {
+          "playlist": "Rock",
+          "precision": 0.9853,
+          "recall": 0.9571,
+          "f1_score": 0.971,
+          "support": 70
+        },
+        {
+          "playlist": "Romantic",
+          "precision": 0.8763,
+          "recall": 0.8854,
+          "f1_score": 0.8808,
+          "support": 96
+        },
+        {
+          "playlist": "Sad",
+          "precision": 0.8958,
+          "recall": 0.9348,
+          "f1_score": 0.9149,
+          "support": 92
+        },
+        {
+          "playlist": "Travel",
+          "precision": 0.9259,
+          "recall": 0.9615,
+          "f1_score": 0.9434,
+          "support": 78
+        },
+        {
+          "playlist": "Workout",
+          "precision": 0.8974,
+          "recall": 0.9545,
+          "f1_score": 0.9251,
+          "support": 110
+        }
+      ],
+      "classification_report": {
+        "Acoustic": {
+          "precision": 0.8229166666666666,
+          "recall": 0.8977272727272727,
+          "f1-score": 0.8586956521739131,
+          "support": 88.0
+        },
+        "Chill": {
+          "precision": 0.8899082568807339,
+          "recall": 0.8083333333333333,
+          "f1-score": 0.8471615720524017,
+          "support": 120.0
+        },
+        "Focus": {
+          "precision": 1.0,
+          "recall": 0.9878048780487805,
+          "f1-score": 0.9938650306748467,
+          "support": 82.0
+        },
+        "Hip Hop": {
+          "precision": 0.9850746268656716,
+          "recall": 1.0,
+          "f1-score": 0.9924812030075187,
+          "support": 66.0
+        },
+        "Jazz": {
+          "precision": 0.8589743589743589,
+          "recall": 0.9054054054054054,
+          "f1-score": 0.881578947368421,
+          "support": 74.0
+        },
+        "Others": {
+          "precision": 0.9235668789808917,
+          "recall": 0.8787878787878788,
+          "f1-score": 0.9006211180124224,
+          "support": 165.0
+        },
+        "Party": {
+          "precision": 0.9489795918367347,
+          "recall": 0.8942307692307693,
+          "f1-score": 0.9207920792079208,
+          "support": 104.0
+        },
+        "Rock": {
+          "precision": 0.9852941176470589,
+          "recall": 0.9571428571428572,
+          "f1-score": 0.9710144927536232,
+          "support": 70.0
+        },
+        "Romantic": {
+          "precision": 0.8762886597938144,
+          "recall": 0.8854166666666666,
+          "f1-score": 0.8808290155440415,
+          "support": 96.0
+        },
+        "Sad": {
+          "precision": 0.8958333333333334,
+          "recall": 0.9347826086956522,
+          "f1-score": 0.9148936170212766,
+          "support": 92.0
+        },
+        "Travel": {
+          "precision": 0.9259259259259259,
+          "recall": 0.9615384615384616,
+          "f1-score": 0.9433962264150944,
+          "support": 78.0
+        },
+        "Workout": {
+          "precision": 0.8974358974358975,
+          "recall": 0.9545454545454546,
+          "f1-score": 0.9251101321585903,
+          "support": 110.0
+        },
+        "accuracy": 0.9135371179039301,
+        "macro avg": {
+          "precision": 0.9175165261950907,
+          "recall": 0.922142965510211,
+          "f1-score": 0.9192032571991725,
+          "support": 1145.0
+        },
+        "weighted avg": {
+          "precision": 0.91468841501729,
+          "recall": 0.9135371179039301,
+          "f1-score": 0.9134278023712875,
+          "support": 1145.0
+        }
+      },
+      "training_time": 0.664,
+      "cv_mean": 0.8844,
+      "cv_std": 0.005
+    },
+    "SVM (RBF)": {
+      "accuracy": 0.9214,
+      "precision": 0.9233,
+      "recall": 0.9214,
+      "f1_score": 0.9217,
+      "confusion_matrix": [
+        [
+          80,
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          104,
+          1,
+          0,
+          3,
+          1,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          81,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          66,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          0,
+          67,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1,
+          3,
+          142,
+          0,
+          1,
+          9,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          96,
+          0,
+          0,
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          68,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          7,
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          86,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          86,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          77,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          102
+        ]
+      ],
+      "class_names": [
+        "Acoustic",
+        "Chill",
+        "Focus",
+        "Hip Hop",
+        "Jazz",
+        "Others",
+        "Party",
+        "Rock",
+        "Romantic",
+        "Sad",
+        "Travel",
+        "Workout"
+      ],
+      "per_playlist_metrics": [
+        {
+          "playlist": "Acoustic",
+          "precision": 0.8,
+          "recall": 0.9091,
+          "f1_score": 0.8511,
+          "support": 88
+        },
+        {
+          "playlist": "Chill",
+          "precision": 0.8595,
+          "recall": 0.8667,
+          "f1_score": 0.8631,
+          "support": 120
+        },
+        {
+          "playlist": "Focus",
+          "precision": 0.9878,
+          "recall": 0.9878,
+          "f1_score": 0.9878,
+          "support": 82
+        },
+        {
+          "playlist": "Hip Hop",
+          "precision": 0.9851,
+          "recall": 1.0,
+          "f1_score": 0.9925,
+          "support": 66
+        },
+        {
+          "playlist": "Jazz",
+          "precision": 0.9178,
+          "recall": 0.9054,
+          "f1_score": 0.9116,
+          "support": 74
+        },
+        {
+          "playlist": "Others",
+          "precision": 0.9467,
+          "recall": 0.8606,
+          "f1_score": 0.9016,
+          "support": 165
+        },
+        {
+          "playlist": "Party",
+          "precision": 0.9231,
+          "recall": 0.9231,
+          "f1_score": 0.9231,
+          "support": 104
+        },
+        {
+          "playlist": "Rock",
+          "precision": 0.9855,
+          "recall": 0.9714,
+          "f1_score": 0.9784,
+          "support": 70
+        },
+        {
+          "playlist": "Romantic",
+          "precision": 0.8776,
+          "recall": 0.8958,
+          "f1_score": 0.8866,
+          "support": 96
+        },
+        {
+          "playlist": "Sad",
+          "precision": 0.9663,
+          "recall": 0.9348,
+          "f1_score": 0.9503,
+          "support": 92
+        },
+        {
+          "playlist": "Travel",
+          "precision": 0.9167,
+          "recall": 0.9872,
+          "f1_score": 0.9506,
+          "support": 78
+        },
+        {
+          "playlist": "Workout",
+          "precision": 0.9444,
+          "recall": 0.9273,
+          "f1_score": 0.9358,
+          "support": 110
+        }
+      ],
+      "classification_report": {
+        "Acoustic": {
+          "precision": 0.8,
+          "recall": 0.9090909090909091,
+          "f1-score": 0.851063829787234,
+          "support": 88.0
+        },
+        "Chill": {
+          "precision": 0.859504132231405,
+          "recall": 0.8666666666666667,
+          "f1-score": 0.8630705394190872,
+          "support": 120.0
+        },
+        "Focus": {
+          "precision": 0.9878048780487805,
+          "recall": 0.9878048780487805,
+          "f1-score": 0.9878048780487805,
+          "support": 82.0
+        },
+        "Hip Hop": {
+          "precision": 0.9850746268656716,
+          "recall": 1.0,
+          "f1-score": 0.9924812030075187,
+          "support": 66.0
+        },
+        "Jazz": {
+          "precision": 0.9178082191780822,
+          "recall": 0.9054054054054054,
+          "f1-score": 0.9115646258503401,
+          "support": 74.0
+        },
+        "Others": {
+          "precision": 0.9466666666666667,
+          "recall": 0.8606060606060606,
+          "f1-score": 0.9015873015873016,
+          "support": 165.0
+        },
+        "Party": {
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "f1-score": 0.9230769230769231,
+          "support": 104.0
+        },
+        "Rock": {
+          "precision": 0.9855072463768116,
+          "recall": 0.9714285714285714,
+          "f1-score": 0.9784172661870504,
+          "support": 70.0
+        },
+        "Romantic": {
+          "precision": 0.8775510204081632,
+          "recall": 0.8958333333333334,
+          "f1-score": 0.8865979381443299,
+          "support": 96.0
+        },
+        "Sad": {
+          "precision": 0.9662921348314607,
+          "recall": 0.9347826086956522,
+          "f1-score": 0.9502762430939227,
+          "support": 92.0
+        },
+        "Travel": {
+          "precision": 0.9166666666666666,
+          "recall": 0.9871794871794872,
+          "f1-score": 0.9506172839506173,
+          "support": 78.0
+        },
+        "Workout": {
+          "precision": 0.9444444444444444,
+          "recall": 0.9272727272727272,
+          "f1-score": 0.9357798165137615,
+          "support": 110.0
+        },
+        "accuracy": 0.9213973799126638,
+        "macro avg": {
+          "precision": 0.925866413232923,
+          "recall": 0.9307622975670431,
+          "f1-score": 0.9276948207222389,
+          "support": 1145.0
+        },
+        "weighted avg": {
+          "precision": 0.9233112663397596,
+          "recall": 0.9213973799126638,
+          "f1-score": 0.9216554421389915,
+          "support": 1145.0
+        }
+      },
+      "training_time": 0.625,
+      "cv_mean": 0.8962,
+      "cv_std": 0.0068
+    },
+    "Neural Network": {
+      "accuracy": 0.9188,
+      "precision": 0.9192,
+      "recall": 0.9188,
+      "f1_score": 0.9187,
+      "confusion_matrix": [
+        [
+          77,
+          3,
+          0,
+          0,
+          2,
+          4,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          102,
+          1,
+          0,
+          3,
+          3,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          81,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          66,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          67,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          1,
+          2,
+          148,
+          0,
+          1,
+          8,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          91,
+          0,
+          0,
+          0,
+          2,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          68,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          86,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          86,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          76,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          104
+        ]
+      ],
+      "class_names": [
+        "Acoustic",
+        "Chill",
+        "Focus",
+        "Hip Hop",
+        "Jazz",
+        "Others",
+        "Party",
+        "Rock",
+        "Romantic",
+        "Sad",
+        "Travel",
+        "Workout"
+      ],
+      "per_playlist_metrics": [
+        {
+          "playlist": "Acoustic",
+          "precision": 0.8462,
+          "recall": 0.875,
+          "f1_score": 0.8603,
+          "support": 88
+        },
+        {
+          "playlist": "Chill",
+          "precision": 0.8947,
+          "recall": 0.85,
+          "f1_score": 0.8718,
+          "support": 120
+        },
+        {
+          "playlist": "Focus",
+          "precision": 0.9878,
+          "recall": 0.9878,
+          "f1_score": 0.9878,
+          "support": 82
+        },
+        {
+          "playlist": "Hip Hop",
+          "precision": 0.9851,
+          "recall": 1.0,
+          "f1_score": 0.9925,
+          "support": 66
+        },
+        {
+          "playlist": "Jazz",
+          "precision": 0.9054,
+          "recall": 0.9054,
+          "f1_score": 0.9054,
+          "support": 74
+        },
+        {
+          "playlist": "Others",
+          "precision": 0.881,
+          "recall": 0.897,
+          "f1_score": 0.8889,
+          "support": 165
+        },
+        {
+          "playlist": "Party",
+          "precision": 0.9381,
+          "recall": 0.875,
+          "f1_score": 0.9055,
+          "support": 104
+        },
+        {
+          "playlist": "Rock",
+          "precision": 0.9855,
+          "recall": 0.9714,
+          "f1_score": 0.9784,
+          "support": 70
+        },
+        {
+          "playlist": "Romantic",
+          "precision": 0.8958,
+          "recall": 0.8958,
+          "f1_score": 0.8958,
+          "support": 96
+        },
+        {
+          "playlist": "Sad",
+          "precision": 0.9556,
+          "recall": 0.9348,
+          "f1_score": 0.9451,
+          "support": 92
+        },
+        {
+          "playlist": "Travel",
+          "precision": 0.9383,
+          "recall": 0.9744,
+          "f1_score": 0.956,
+          "support": 78
+        },
+        {
+          "playlist": "Workout",
+          "precision": 0.8966,
+          "recall": 0.9455,
+          "f1_score": 0.9204,
+          "support": 110
+        }
+      ],
+      "classification_report": {
+        "Acoustic": {
+          "precision": 0.8461538461538461,
+          "recall": 0.875,
+          "f1-score": 0.8603351955307262,
+          "support": 88.0
+        },
+        "Chill": {
+          "precision": 0.8947368421052632,
+          "recall": 0.85,
+          "f1-score": 0.8717948717948718,
+          "support": 120.0
+        },
+        "Focus": {
+          "precision": 0.9878048780487805,
+          "recall": 0.9878048780487805,
+          "f1-score": 0.9878048780487805,
+          "support": 82.0
+        },
+        "Hip Hop": {
+          "precision": 0.9850746268656716,
+          "recall": 1.0,
+          "f1-score": 0.9924812030075187,
+          "support": 66.0
+        },
+        "Jazz": {
+          "precision": 0.9054054054054054,
+          "recall": 0.9054054054054054,
+          "f1-score": 0.9054054054054054,
+          "support": 74.0
+        },
+        "Others": {
+          "precision": 0.8809523809523809,
+          "recall": 0.896969696969697,
+          "f1-score": 0.8888888888888888,
+          "support": 165.0
+        },
+        "Party": {
+          "precision": 0.9381443298969072,
+          "recall": 0.875,
+          "f1-score": 0.9054726368159204,
+          "support": 104.0
+        },
+        "Rock": {
+          "precision": 0.9855072463768116,
+          "recall": 0.9714285714285714,
+          "f1-score": 0.9784172661870504,
+          "support": 70.0
+        },
+        "Romantic": {
+          "precision": 0.8958333333333334,
+          "recall": 0.8958333333333334,
+          "f1-score": 0.8958333333333334,
+          "support": 96.0
+        },
+        "Sad": {
+          "precision": 0.9555555555555556,
+          "recall": 0.9347826086956522,
+          "f1-score": 0.945054945054945,
+          "support": 92.0
+        },
+        "Travel": {
+          "precision": 0.9382716049382716,
+          "recall": 0.9743589743589743,
+          "f1-score": 0.9559748427672956,
+          "support": 78.0
+        },
+        "Workout": {
+          "precision": 0.896551724137931,
+          "recall": 0.9454545454545454,
+          "f1-score": 0.9203539823008849,
+          "support": 110.0
+        },
+        "accuracy": 0.9187772925764193,
+        "macro avg": {
+          "precision": 0.9258326478141798,
+          "recall": 0.9260031678079134,
+          "f1-score": 0.925651454094635,
+          "support": 1145.0
+        },
+        "weighted avg": {
+          "precision": 0.9191891102633809,
+          "recall": 0.9187772925764193,
+          "f1-score": 0.9186931890682987,
+          "support": 1145.0
+        }
+      },
+      "training_time": 3.662,
+      "cv_mean": 0.8868,
+      "cv_std": 0.0088
+    }
+  }
+}
